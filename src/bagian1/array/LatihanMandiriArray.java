@@ -24,7 +24,7 @@ public class LatihanMandiriArray {
     String[] hari = {"Senin","Selasa","Rabu","Kamis","Jumat"};
 
     System.out.println("\n===== Soal 2 =====");
-    System.out.println("Nama hari yang memiliki lebih dari 5 huruf:");
+    System.out.println("Nama hari yang memiliki lebih dari 5 huruf adalah ");
 
     for (String h : hari) {
         if (h.length() > 5) {
@@ -42,7 +42,6 @@ public class LatihanMandiriArray {
             }
         }
     System.out.println("\n===== Soal 3 =====");
-    System.out.println("Jumlah angka genap = " + jumlahGenap);
+    System.out.println("Jumlah angka genap adalah " + jumlahGenap);
     }
 }
-
